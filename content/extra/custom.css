@@ -1,0 +1,26 @@
+/* Custom CSS by Amanjit */ 
+
+body {
+  font-family: "Calibri", "Arial", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 2.1em;
+}
+
+/* make 'home' and about' links in sidebar match general link colour 
+ * make general link colour slightly lighter - looks clearer on sidebar */
+a, aside nav ul li:first-child a, aside nav ul li:last-child a {
+  color: #e2502e;
+}
+
+/* article header - capitalise first letter of category */ 
+header p a {
+  text-transform: capitalize;
+}
+
+
