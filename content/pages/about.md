@@ -23,3 +23,5 @@ This is, after all, a blog; it's not investigative journalism. That said, I neve
 - Currently undertaking a master's degree in data science, and loving it. 
 
 ### Contact 
+
+contact@amanjitgill.com
