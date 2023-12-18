@@ -1,7 +1,7 @@
 AUTHOR = 'Amanjit Gill'
 SITENAME = 'Amanjit Gill'
 SITEURL = ""
-
+ 
 PATH = "content"
 
 TIMEZONE = 'Australia/Melbourne'
