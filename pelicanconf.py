@@ -1,7 +1,9 @@
+from datetime import date 
+
 AUTHOR = 'Amanjit Gill'
 SITENAME = 'Amanjit Gill'
 SITEURL = ""
- 
+
 PATH = "content"
 
 TIMEZONE = 'Australia/Melbourne'
@@ -95,4 +97,17 @@ SITELOGO = SITEURL + "/static/headshot.png"
 # Links go to top of page, not to title
 DISABLE_URL_HASH = True
 
+COPYRIGHT_NAME = "Amanjit Gill"
+
+def get_copyright_years():
+
+    initial_year = 2023 
+    current_year = date.today().year 
+
+    if initial_year == current_year:
+        return f"{initial_year}"
+    else:
+        return f"{initial_year}-{current_year}"
+
+COPYRIGHT_YEAR = get_copyright_years()
 
