@@ -24,7 +24,7 @@ DEFAULT_PAGINATION = 5
 
 ### ADDED BY AMANJIT ### 
 
-OUTPUT_PATH = "../generated/"
+OUTPUT_PATH = "../amanjit-gill-data.github.io/"
 
 # Overwrite entire output directory, but retain .git data 
 DELETE_OUTPUT_DIRECTORY = True
