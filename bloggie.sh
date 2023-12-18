@@ -40,6 +40,8 @@ get_path() {
 # $2 = commit_message
 git_acp() {
 
+  echo "*** `basename "$1"` ***"
+  
   cd "$1"
   git add . && git commit -m "$2" && git push
 }
