@@ -70,6 +70,12 @@ case $1 in
     pelican content
     ;;
 
+  serve)
+    check_argcount 1 $#
+    cd "$GENERATE_REPO"
+    pelican --listen
+    ;;
+
   publish)
     check_argcount 2 $#
     git_acp "$GENERATE_REPO" "$2" 
