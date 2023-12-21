@@ -50,7 +50,6 @@ LINKS = (
     ("mathematics", "/category/mathematics.html"),
     ("programming", "/category/programming.html"),
     ("computing", "/category/computing.html"),
-    ("opinion", "/category/opinion.html"),
     ("about", "/pages/about.html"),
 )
 

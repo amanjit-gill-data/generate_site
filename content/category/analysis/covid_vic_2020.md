@@ -4,8 +4,11 @@ In 2020, during the first significant COVID-19 wave to have occurred in Victoria
 
 In addition, I created videos showing showing how case numbers evolved across Greater Melbourne and Victoria. 
 
-These are published [here](https://amanjitgill.com/covid_vic_2020/). I'm in the process of moving the interactive to another server, so it may not appear for a few days.
+These are published [here](https://amanjitgill.com/covid_vic_2020/). 
 
+The interactive is shown below.
+
+<iframe src="https://orca-app-5kasr.ondigitalocean.app" title="COVID-19 cases by LGA" width=100% height=500px style="border:none;"></iframe>
 
 
 
