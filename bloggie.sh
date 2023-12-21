@@ -15,12 +15,12 @@ check_argcount () {
   fi 
 }
 
-# $1 = analysis|mathematics|programming|computing|opinion|pages|extra
+# $1 = analysis|mathematics|programming|computing|pages|extra
 get_path() {
 
   case $1 in 
 
-    analysis|mathematics|programming|computing|opinion)
+    analysis|mathematics|programming|computing)
       path="$GENERATE_REPO/content/category/$1"
       ;;
 
@@ -47,7 +47,7 @@ git_acp() {
 }
 
 # $1 = edit|delete|generate|publish|config
-# $2 = (for edit/delete) analysis|mathematics|programming|computing|opinion|pages|extra
+# $2 = (for edit/delete) analysis|mathematics|programming|computing|pages|extra
 # $2 = (for publish) "commit message"
 # $3 = (for edit/delete) filename.md
 case $1 in 
