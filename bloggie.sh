@@ -1,6 +1,6 @@
 #!/usr/bin/bash
 
-PROJECT_ROOT="$HOME/projects/personal/website"
+PROJECT_ROOT="$HOME/Projects/blog"
 GENERATE_REPO="$PROJECT_ROOT/generate_site"
 PUBLISH_REPO="$PROJECT_ROOT/amanjit-gill-data.github.io"
 CONFIG_PATH="$GENERATE_REPO/pelicanconf.py"
@@ -46,7 +46,7 @@ git_acp() {
   git add . && git commit -m "$2" && git push
 }
 
-# $1 = edit|delete|generate|publish|config
+# $1 = edit|delete|generate|serve|publish|config
 # $2 = (for edit/delete) analysis|mathematics|programming|computing|pages|extra
 # $2 = (for publish) "commit message"
 # $3 = (for edit/delete) filename.md

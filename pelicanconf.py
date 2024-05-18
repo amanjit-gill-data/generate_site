@@ -34,7 +34,7 @@ OUTPUT_RETENTION = [".git"]
 
 DEFAULT_DATE = "fs"
 
-THEME = "C:\\Users\\amanj\\miniconda3\\envs\\blog\\Lib\\site-packages\\pelican\\themes\\Flex"
+THEME = "/home/ag/Projects/blog/themes/Flex"
 
 # Flex defines main menu as small links across top of page 
 MAIN_MENU = False 
@@ -54,13 +54,14 @@ LINKS = (
 )
 
 # Pelican will copy these directly into the generated output, inc parent dirs
-STATIC_PATHS = ["extra/CNAME", "extra/custom.css", "extra/headshot.png"]
+STATIC_PATHS = ["extra/CNAME", "extra/custom.css", "extra/headshot.png", "extra/favicon.ico"]
 
 # redirect static files to their proper locations in generated output
 EXTRA_PATH_METADATA = {
     "extra/CNAME": {"path": "CNAME"},
     "extra/custom.css": {"path": "static/custom.css"},
-    "extra/headshot.png": {"path": "static/headshot.png"}
+    "extra/headshot.png": {"path": "static/headshot.png"},
+    "extra/favicon.ico": {"path": "static/favicon.ico"}
 }
 
 # where to put generated articles 
@@ -92,6 +93,8 @@ CUSTOM_CSS = "static/custom.css"
 SITETITLE = "Amanjit Gill"
 
 SITELOGO = SITEURL + "/static/headshot.png"
+
+FAVICON = "static/favicon.ico"
 
 # Links go to top of page, not to title
 DISABLE_URL_HASH = True

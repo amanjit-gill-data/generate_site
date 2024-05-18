@@ -1,0 +1,4 @@
+# use python 3.12
+pelican==4.9.1
+markdown
+
