@@ -1,4 +1,6 @@
 title: Auto-updated visualisations of COVID-19 cases by geographical area.
+date: 2023-12-20
+modified: 2023-12-20
 
 In 2020, during the first significant COVID-19 wave to have occurred in Victoria, Australia, I created an automatically updating interactive of daily case numbers, by LGA (local government area). 
 
