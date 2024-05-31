@@ -1,6 +1,6 @@
 #!/usr/bin/bash
 
-PROJECT_ROOT="$HOME/Projects/blog"
+PROJECT_ROOT="$HOME/projects/blog"
 GENERATE_REPO="$PROJECT_ROOT/generate_site"
 PUBLISH_REPO="$PROJECT_ROOT/amanjit-gill-data.github.io"
 CONFIG_PATH="$GENERATE_REPO/pelicanconf.py"

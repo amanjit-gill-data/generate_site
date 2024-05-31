@@ -34,7 +34,7 @@ OUTPUT_RETENTION = [".git"]
 
 DEFAULT_DATE = "fs"
 
-THEME = "/home/ag/Projects/blog/themes/Flex"
+THEME = "/home/ag/projects/blog/themes/Flex"
 
 # Flex defines main menu as small links across top of page 
 MAIN_MENU = False 
