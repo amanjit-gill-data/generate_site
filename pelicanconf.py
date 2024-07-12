@@ -53,10 +53,10 @@ LINKS = (
     ("about", "/pages/about.html"),
 )
 
-# Pelican will copy these directly into the generated output, inc parent dirs
+# copy these into generated output without changing their locations
 STATIC_PATHS = ["extra/CNAME", "extra/custom.css", "extra/headshot.jpg", "extra/favicon.ico"]
 
-# redirect static files to their proper locations in generated output
+# redirect static files to their proper locations
 EXTRA_PATH_METADATA = {
     "extra/CNAME": {"path": "CNAME"},
     "extra/custom.css": {"path": "static/custom.css"},
@@ -94,7 +94,7 @@ SITETITLE = "Amanjit Gill"
 
 SITELOGO = SITEURL + "/static/headshot.jpg"
 
-FAVICON = "static/favicon.ico"
+FAVICON = SITEURL + "/static/favicon.ico"
 
 # Links go to top of page, not to title
 DISABLE_URL_HASH = True
