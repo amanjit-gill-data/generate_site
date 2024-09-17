@@ -2,16 +2,13 @@ title: About
 
 ### Hi, I'm Amanjit.
 
-Thank you for visiting.
-
 This blog is where I share what I've learned, and my opinions, on:
 
-- programming
-- computing
-- data science
-- mathematics
+- data science and analysis 
+- mathematics and statistical theory
+- programming and computing
 
-I value precision and accuracy; I never deliberately make untrue or misleading claims. That said, this is a blog, not investigative journalism, so I try to constrain my research efforts to reasonable limits before publishing my posts. Also, obviously, the opinions I express here are my own, not those of any employer or organisation.
+I value precision; I never deliberately make untrue or misleading claims. That said, this is a blog, not investigative journalism, so I try to constrain my research efforts to reasonable limits before publishing my posts. Also, obviously, the opinions I express here are my own, not those of any employer or organisation.
 
 ### My background
 

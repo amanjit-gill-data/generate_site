@@ -46,9 +46,8 @@ DISPLAY_PAGES_ON_MENU = False
 # must have comma after last tuple
 LINKS = (
     ("home", "/"),
-    ("analysis", "/category/analysis.html"),
-    ("mathematics", "/category/mathematics.html"),
-    ("programming", "/category/programming.html"),
+    ("data analysis", "/category/data-analysis.html"),
+    ("maths and stats", "/category/maths-and-stats.html"),
     ("computing", "/category/computing.html"),
     ("about", "/pages/about.html"),
 )

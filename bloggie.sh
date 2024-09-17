@@ -20,7 +20,7 @@ get_path() {
 
   case $1 in 
 
-    analysis|mathematics|programming|computing)
+    data-analysis|maths-and-stats|computing)
       path="$GENERATE_REPO/content/category/$1"
       ;;
 
@@ -47,7 +47,7 @@ git_acp() {
 }
 
 # $1 = edit|delete|generate|serve|publish|config
-# $2 = (for edit/delete) analysis|mathematics|programming|computing|pages|extra
+# $2 = (for edit/delete) data-analysis|maths-and-stats|computing|pages|extra
 # $2 = (for publish) "commit message"
 # $3 = (for edit/delete) filename.md
 case $1 in 
