@@ -9,6 +9,8 @@ This happened because the dimensions of male and female abalone overlapped too m
 
 ![Box plots of abalone variables]({static}/images/abalone-variables.png)
 
+ _Note_: The 'I' category covers infant abalone whose sex has not yet been determined. 
+
 It really demonstrated to me that there is more to machine learning than knowing a bit of Python or R. The hard part is being able to see - and admit - that your model is rubbish.
 
 Source code and report: [GitHub](https://github.com/amanjit-gill-data/ml-classify-abalone)
