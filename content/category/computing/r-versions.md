@@ -1,5 +1,6 @@
 title: How I keep my R projects reproducible.
 date: 2024-08-02
+modified: 2024-09-17
 
 Unless you are very lucky, replacing your version of R with the most recent one, or continually upgrading your packages, will eventually break your projects. I am apparently not very lucky, because this has happened to me - my university upgraded its packages while I was mid-assignment, and my code suddenly stopped working. 
 
@@ -86,5 +87,5 @@ If the project is shared with others or cloned to another machine, include the `
 
 ### Next steps 
 
-As mentioned earlier, this isn't a perfect setup. But it's better than haphazardly updating R and hoping the good luck fairy will keep your projects from breaking. 
+As mentioned earlier, this isn't a perfect setup. But it's a start, and I intend to implement better practices as I learn more.
 
