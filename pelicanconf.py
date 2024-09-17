@@ -20,6 +20,7 @@ AUTHOR_FEED_RSS = None
 # Social widget
 SOCIAL = (
     ("github", "https://github.com/amanjit-gill-data"),
+    ("linkedin", "https://www.linkedin.com/in/amanjit-gill-data/"),
 )
 
 DEFAULT_PAGINATION = 5
