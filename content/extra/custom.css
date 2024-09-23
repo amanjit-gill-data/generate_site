@@ -14,7 +14,14 @@ h1 {
 
 /* make 'home' and about' links in sidebar match general link colour 
  * make general link colour slightly lighter - looks clearer on sidebar */
+
+/*
 a, aside nav ul li:first-child a, aside nav ul li:last-child a {
+  color: #e2502e;
+}
+*/ 
+
+a, aside nav ul li:nth-child(even) a {
   color: #e2502e;
 }
 
